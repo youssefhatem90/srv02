@@ -1,3 +1,3 @@
 #!/bin/bash
 
-systemctl start srv02
+systemctl start srv-02
