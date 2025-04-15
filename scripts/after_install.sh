@@ -5,7 +5,7 @@ cat >/etc/systemd/system/srv-02.service <<EOL
 Description=Dotnet S3 info service
 
 [Service]
-ExecStart=/usr/bin/dotnet /home/ubuntu/srv02/bin/Release/netcoreapp6/linux-x64/srv02.dll
+ExecStart=/usr/bin/dotnet /home/ubuntu/srv02/srv02.dll
 SyslogIdentifier=srv-02
 
 Environment=DOTNET_CLI_HOME=/temp
