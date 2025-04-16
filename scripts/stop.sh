@@ -1,2 +1,2 @@
 #!/bin/bash
-systemctl stop srv02
+systemctl stop srv-02
